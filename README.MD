@@ -1,5 +1,5 @@
 
-#Web Scraping For Low price.
+# Web Scraping For Low price.
 
 ## Installation
 ```bash
@@ -17,7 +17,7 @@ pip install regex
 ```
 
 
-##**Overview**
+## **Overview**
 
 A Complete Module  To Reach The Lowest Price By Given Barcode.
 
@@ -31,7 +31,7 @@ A Complete Module  To Reach The Lowest Price By Given Barcode.
 
 The Module developed for Cdsoft company :https://www.cdsoft.co.il/index.php
 
-###**Usage**
+## **Usage**
 ```python
 # -*- coding: utf-8 -*-
 from googlesearch import search
@@ -42,7 +42,7 @@ from urllib.request import Request, urlopen
 import re
 ```
 
-###**How It Works:**
+## **How It Works:**
 
 By insert specific barcode the Module get into Googlesearch and return,
 
@@ -60,7 +60,7 @@ It made to go over each line in HTML text to find where the barcode appears,
 
 Because after a little search the required price in most cases appears after barcode appears,
 
-When the barcode is found the Module search for "¤" to seek for price,
+When the barcode is found the Module search for "Â¤" to seek for price,
 
 If the number is not in "option_tag_list"-that contain all the prices that appear in "option" tags,
 
